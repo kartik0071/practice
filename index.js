@@ -41,3 +41,24 @@
   }
 
   Q4. Write a function ‘weekDay’ that takes n as the input and returns the day associated to it. If n<1 or n>7 then return invalid input. Using switch case only
+
+  function weekDay(n){
+    let ans='';
+    switch(n){
+        case 1: ans='monday';
+            break;
+        case 2: ans='tuesday';
+            break;
+        case 3: ans='wednesday';
+            break;
+        case 4: ans='thursday';
+            break;
+        case 5: ans='friday';
+            break;
+        case 6: ans='satuday';
+            break;
+        case 7: ans='sunday';
+            break;
+            default : ans='invalid Input';
+    }                                                                     return ans;
+}
